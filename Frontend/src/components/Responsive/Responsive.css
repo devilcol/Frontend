@@ -1,0 +1,16 @@
+@media only screen and (max-width: 770px) {
+  .row {
+    width: 200px;
+    height: auto;
+  }
+  .row .product .name {
+    font-size: 16px;
+  }
+  .row .product .price {
+    font-size: 13px;
+  }
+  .row .product .image {
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=Responsive.css.map */

@@ -1,0 +1,21 @@
+.pagination {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pagination button {
+  border: 0;
+  background-color: #fff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  color: #a0a0a0;
+  font-size: 16px;
+  margin: 0 10px 0 10px;
+}
+
+.pagination button:hover {
+  background-color: #e9e8e8;
+  border-radius: 50%;
+  font-size: 18px;
+}
+/*# sourceMappingURL=ChangePage.css.map */

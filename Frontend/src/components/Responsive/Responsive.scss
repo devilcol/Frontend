@@ -1,0 +1,22 @@
+@media only screen and (max-width: 770px) {
+  
+  .row{
+    width : 200px;
+    height : auto;
+    .product{
+
+      .name{
+        font-size: 16px;
+      }
+
+      .price {
+        font-size: 13px;
+      }
+
+      .image {
+        width: 100px
+      }
+    }
+  }
+}
+

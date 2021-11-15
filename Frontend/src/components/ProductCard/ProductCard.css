@@ -1,0 +1,26 @@
+.row {
+  width: 800px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.product {
+  width: 200px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product .price {
+  font-size: 16px;
+  font-weight: 1000;
+}
+
+.product .image {
+  width: 80%;
+}
+/*# sourceMappingURL=ProductCard.css.map */
