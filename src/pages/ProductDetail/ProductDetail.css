@@ -1,0 +1,27 @@
+.detail {
+  margin: 50px 40px 0 40px;
+  width: auto;
+  color: #202020;
+  font-size: 20px;
+  font-family: 'Segoe UI';
+}
+
+.detail .image-detail {
+  width: 500px;
+  height: 500px;
+}
+
+.detail .name-detail {
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .detail {
+    margin: 20px 5px 0 5px;
+  }
+  .detail .image-detail {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=ProductDetail.css.map */

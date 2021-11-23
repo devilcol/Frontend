@@ -1,4 +1,4 @@
-
+import React from 'react';
 const LIMIT = 5
 const ChangePage = ({
   totalPages,
@@ -10,7 +10,7 @@ const ChangePage = ({
   }) => {
 
   return (
-    <div>
+    <div className="pagination">
       <button
         className="pre"
         disabled={offset <= 1}
@@ -25,7 +25,7 @@ const ChangePage = ({
         <button 
           className='change-page'
           id={index} key={index}
-          onClick={(e,)=> (
+          onClick={(e)=> (
             setOffset(e.target.id * LIMIT)
             )}
           style={(offset===index*LIMIT)?{

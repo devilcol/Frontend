@@ -1,0 +1,47 @@
+.detail {
+    margin : 50px 40px 0 40px;
+    width: auto;
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-family: 'Segoe UI';
+
+    .image-detail{
+        width : 500px;
+        height: 500px;
+    }
+
+    .name-detail {
+        text-transform: uppercase;
+    }
+
+    .price-detail {
+
+    }
+
+    .description-detail {
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+ .detail {
+    margin: 20px 5px 0 5px;
+
+    .image-detail {
+        width: 200px;
+        height: 200px;
+    }
+
+    .name-detail {
+        
+    }
+
+    .price-detail {
+
+    }
+
+    .description-detail {
+
+    }
+ }
+}

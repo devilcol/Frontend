@@ -22,5 +22,8 @@
 
 .product .image {
   width: 80%;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 /*# sourceMappingURL=ProductCard.css.map */
